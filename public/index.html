@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050c12"><meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Turn what you have into something good. A private, interactive kitchen recipe prototype.">
+  <title>Pantry — A little in your kitchen. A lot of possibility.</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+  <script src="/experience.js" defer></script>
+  <script src="/premium.js" defer></script>
+  <script src="/languages.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#kitchen" aria-label="Pantry home"><span class="brand-icon" data-icon="leaf"></span>pantry<span class="brand-dot">.</span></a>
+    <div class="nav-label">YOUR EVERYDAY KITCHEN</div>
+    <nav aria-label="Main navigation">
+      <button class="nav-link active" data-nav="kitchen"><i data-icon="grid"></i><span>My kitchen</span></button>
+      <button class="nav-link" data-nav="recipes"><i data-icon="book"></i><span>My recipes</span><span class="count" id="saved-count">0</span></button>
+      <button class="nav-link" data-extra="discover"><i data-icon="search"></i><span>Discover</span></button>
+      <button class="nav-link" data-extra="planner"><i data-icon="calendar"></i><span>Meal planner</span></button>
+      <button class="nav-link" data-extra="shopping"><i data-icon="bag"></i><span>Shopping list</span></button>
+      <button class="nav-link" data-action="open-pro"><i data-icon="sparkles"></i><span>Premium</span><span class="small-pro">PREMIUM</span></button>
+    </nav>
+    <div class="sidebar-bottom"><div class="plus-card"><span class="sun-icon" data-icon="sparkles"></span><h3>A little more possibility.</h3><p>Meet your everyday<br>kitchen companion.</p><button data-action="open-pro">Discover Premium <i data-icon="arrow"></i></button></div>
+      <button class="profile" data-extra="profile"><div class="avatar">A</div><div><strong>Your kitchen</strong><span id="plan-label">Free plan</span></div><i data-icon="arrow"></i></button>
+    </div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><div class="mobile-brand brand"><span class="brand-icon" data-icon="leaf"></span>pantry<span class="brand-dot">.</span></div><div class="breadcrumb"><i data-icon="home"></i><span>/</span><span id="breadcrumb-current">My kitchen</span></div><div class="topbar-right"><span class="prototype-label"><span></span>Interactive prototype</span><button class="text-button" data-action="open-pro">Explore Premium <i data-icon="sparkles"></i></button></div></header>
+    <main id="main" tabindex="-1">
+      <div id="kitchen-view">
+        <section class="home-section" aria-labelledby="hero-title">
+          <div class="greeting-row"><div><p class="greeting">Welcome to your kitchen</p><h1 id="hero-title">Let’s cook something great.</h1></div><button class="avatar" data-extra="profile" aria-label="Open profile">A</button></div>
+          <form id="recipe-search-form" class="home-search"><i data-icon="search"></i><input id="recipe-search" aria-label="Search recipes or ingredients" placeholder="Search recipes, ingredients…" autocomplete="off"><button type="submit" aria-label="Search recipes"><i data-icon="arrow"></i></button></form>
+          <div class="home-grid"><div class="hero-banner"><img src="/assets/pasta.jpg" alt="A freshly prepared pasta dish" fetchpriority="high"><div class="hero-copy"><span class="eyebrow"><i data-icon="sparkles"></i> YOUR INGREDIENTS. ENDLESS POSSIBILITIES.</span><h2>What are you<br>cooking today?</h2><p>Show us what you have.<br>We’ll find something delicious.</p><div class="hero-actions"><button class="button primary" data-action="capture"><i data-icon="scan"></i>Scan my ingredients</button><button class="button outline" data-extra="manual">Enter ingredients <i data-icon="plus"></i></button></div></div><span class="banner-caption">Good food. Less waste.</span></div>
+          <div class="quick-panel"><div class="mini-heading"><h2>Quick options</h2><button class="text-button" data-extra="discover">See all <i data-icon="arrow"></i></button></div><div class="quick-grid"><button class="quick-tile yellow" data-quick="quick"><i data-icon="bolt"></i><span>Quick meal</span><small>30 min or less</small></button><button class="quick-tile amber" data-quick="simple"><i data-icon="coins"></i><span>Keep it simple</span><small>Fewer ingredients</small></button><button class="quick-tile blue" data-quick="ready"><i data-icon="check"></i><span>Cook now</span><small>Nothing missing</small></button><button class="quick-tile green" data-quick="vegetarian"><i data-icon="leaf"></i><span>Vegetarian</span><small>Plant-forward ideas</small></button><button class="quick-tile purple" data-extra="planner"><i data-icon="calendar"></i><span>Meal planner</span><small>Your week, sorted</small></button><button class="quick-tile cyan" data-extra="expiry"><i data-icon="clock"></i><span>Use it up</span><small>Waste a little less</small></button></div></div></div>
+        </section>
+        <section class="workspace" id="pantry-workspace" aria-labelledby="workspace-title">
+          <div class="section-heading"><div><span class="eyebrow muted">GOOD FOOD STARTS HERE</span><h2 id="workspace-title">Inside your pantry</h2></div><div class="flow-steps" aria-label="Recipe flow"><span class="current"><b>1</b>Add ingredients</span><span class="step-line"></span><span id="flow-discover"><b>2</b>Find a recipe</span><span class="step-line"></span><span><b>3</b>Let’s cook</span></div></div>
+          <div class="workspace-grid">
+            <div class="capture-card"><div class="capture-heading"><span class="icon-tile" data-icon="camera"></span><span class="pill">THE EASY WAY</span></div><h3>A photo is all it takes.</h3><p>Fridge, pantry, countertop.<br> Show us what you’re working with.</p><button class="button dark full" data-action="capture"><i data-icon="camera"></i>Snap or upload a photo</button><button class="sample-button" data-action="sample">Just exploring? Try a sample <i data-icon="arrow"></i></button><span class="demo-note">Photo recognition is simulated in this prototype.</span><input type="file" id="photo-input" accept="image/*" capture="environment" hidden></div>
+            <div class="pantry-card"><div class="pantry-heading"><h3>Your ingredients <span class="number-pill" id="ingredient-count">3</span></h3><button class="text-button subtle" data-action="clear">Clear all</button></div><form id="ingredient-form"><label class="sr-only" for="ingredient-input">Add ingredients</label><div class="ingredient-input-wrap"><i data-icon="search"></i><input id="ingredient-input" type="text" maxlength="200" autocomplete="off" placeholder="Add ingredients, e.g. eggs, spinach…"><button type="submit" class="add-button" aria-label="Add ingredients"><i data-icon="plus"></i></button></div></form><p class="input-hint">Separate with commas. Tap an ingredient to edit.</p><div class="ingredient-chips" id="ingredient-chips"></div><div class="suggestions"><span>A few everyday favorites</span><div id="suggestion-chips"></div></div><div class="pantry-bottom"><label class="check-label"><input type="checkbox" id="staples" checked><span>I have salt, pepper & oil</span><span class="info-dot" title="Recipes marked ready assume you have these pantry basics.">i</span></label><button class="button primary" id="find-recipes"><i data-icon="sparkles"></i>Find my recipes <i data-icon="arrow"></i></button></div><div class="inline-error" id="pantry-error" role="status"></div></div>
+          </div>
+        </section>
+        <section class="results-section" id="results" aria-labelledby="results-title"><div class="section-heading results-heading"><div><span class="eyebrow muted" id="results-eyebrow">YOUR NEXT GOOD MEAL</span><h2 id="results-title">A little dinner inspiration.</h2><p id="results-description">A taste of what’s possible with your ingredients.</p></div><div class="filter-pills" aria-label="Filter recipes"><button class="filter active" data-filter="all" aria-pressed="true">All recipes</button><button class="filter" data-filter="quick" aria-pressed="false"><i data-icon="clock"></i>30 min or less</button><button class="filter" data-filter="vegetarian" aria-pressed="false"><i data-icon="leaf"></i>Vegetarian</button></div></div><div id="recipe-grid" class="recipe-grid"></div><div class="results-footer"><i data-icon="sparkles"></i><p>Good things happen when you start with what you have.</p><span>Recipes & photos are illustrative sample content.</span></div></section>
+      </div>
+      <section id="saved-view" hidden><div class="saved-header"><span class="eyebrow muted">YOUR PERSONAL COOKBOOK</span><h1>Saved recipes</h1><p>All your favorites, ready for another day.</p></div><div class="recipe-grid" id="saved-grid"></div></section>
+      <section id="extras-view" hidden></section>
+      <footer class="page-footer"><span class="footer-brand">pantry.</span><span>A little in your kitchen. A lot of possibility.</span><span><i data-icon="lock"></i>Private prototype</span></footer>
+    </main>
+  </div>
+  <nav class="mobile-nav" aria-label="Mobile navigation"><button class="active" data-nav="kitchen"><i data-icon="home"></i><span>Home</span></button><button data-extra="discover"><i data-icon="search"></i><span>Discover</span></button><button class="scan-tab" data-action="capture" aria-label="Scan ingredients"><i data-icon="scan"></i><span>Scan</span></button><button data-nav="recipes"><i data-icon="heart"></i><span>Saved</span></button><button data-extra="profile"><i data-icon="user"></i><span>Profile</span></button></nav>
+  <dialog id="capture-dialog" class="modal"><div class="modal-top"><span class="eyebrow muted">REVIEW YOUR SCAN</span><button class="icon-button" data-close aria-label="Close ingredient review"><i data-icon="x"></i></button></div><div class="review-photo" id="review-photo"></div><h2>Identified ingredients</h2><p class="modal-intro">Not quite right? Edit, remove or add ingredients below.</p><div class="notice"><i data-icon="info"></i><span id="scan-note">Demo scan: these are sample ingredients, not AI detections.</span></div><div id="detected-list"></div><form id="detected-form" class="small-form"><label class="sr-only" for="detected-input">Add a detected ingredient</label><input id="detected-input" maxlength="60" placeholder="Add an ingredient…"><button class="button secondary" type="submit">Add</button></form><button class="button primary full" id="confirm-detected">Add to my kitchen <i data-icon="arrow"></i></button></dialog>
+  <dialog id="edit-dialog" class="modal compact"><div class="modal-top"><h2>Edit ingredient</h2><button class="icon-button" data-close aria-label="Close ingredient editor"><i data-icon="x"></i></button></div><form id="edit-form"><label for="edit-input">Ingredient name</label><input id="edit-input" maxlength="60" required><div class="edit-actions"><button type="button" class="button secondary" data-close>Cancel</button><button type="submit" class="button primary">Save ingredient</button></div></form></dialog>
+  <dialog id="recipe-dialog" class="recipe-modal"></dialog>
+  <dialog id="pro-dialog" class="modal pro-modal"></dialog>
+  <dialog id="scanner-dialog" class="modal scanner-modal" aria-label="Scan ingredients"></dialog>
+  <dialog id="filters-dialog" class="modal" aria-label="Recipe filters"></dialog>
+  <dialog id="assistant-dialog" class="modal" aria-label="Cooking assistant demo"></dialog>
+  <dialog id="timer-dialog" class="modal compact" aria-label="Cooking timer"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

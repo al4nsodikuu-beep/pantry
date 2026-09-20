@@ -1,0 +1,13 @@
+.git
+android
+public
+dist
+node_modules
+**/__pycache__
+**/.pytest_cache
+**/*.sqlite3*
+**/*.db
+**/.env
+**/.env.*
+**/*service-account*.json
+backend/tests

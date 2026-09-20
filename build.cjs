@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const { execFileSync } = require('node:child_process');
+execFileSync(process.execPath, ['--check', path.join(__dirname, 'public/app.js')]);
+execFileSync(process.execPath, ['--check', path.join(__dirname, 'public/experience.js')]);
+for (const file of ['premium.js','languages.js']) execFileSync(process.execPath, ['--check', path.join(__dirname, 'public', file)]);
+const output = path.join(__dirname, 'dist');
+fs.rmSync(output, { recursive: true, force: true });
+fs.cpSync(path.join(__dirname, 'public'), output, { recursive: true });
+console.log('Validated and built static site in dist/');

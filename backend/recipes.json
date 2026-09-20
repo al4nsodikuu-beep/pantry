@@ -1,0 +1,349 @@
+[
+  {
+    "id": "beef-pasta",
+    "name": "Your pantry bolognese",
+    "kicker": "A WEEKNIGHT LITTLE WIN",
+    "description": "Rich tomato, savory mince, and a generous twirl of spaghetti. Comfort, made simple.",
+    "image": "pasta",
+    "time": 25,
+    "vegetarian": false,
+    "ingredients": [
+      [
+        "spaghetti",
+        200,
+        "g"
+      ],
+      [
+        "tomato paste",
+        3,
+        "tbsp"
+      ],
+      [
+        "ground meat",
+        250,
+        "g"
+      ]
+    ],
+    "basics": [
+      "salt",
+      "pepper",
+      "oil"
+    ],
+    "steps": [
+      [
+        "Get the pasta going",
+        "Bring a large pot of water to a boil. Add salt and spaghetti. Cook following the packet timing, then reserve a mug of pasta water before draining."
+      ],
+      [
+        "Build a rich sauce",
+        "Heat a little oil in a pan over medium heat. Add the ground meat and break it apart. Cook thoroughly; ground beef or pork should reach 71°C, and ground poultry 74°C. Stir in the tomato paste and cook for 2 minutes."
+      ],
+      [
+        "Bring it together",
+        "Add a splash of reserved pasta water and simmer for 5 minutes, stirring until saucy. Toss in the drained spaghetti. Add more pasta water as needed and season with pepper."
+      ]
+    ]
+  },
+  {
+    "id": "tomato-pasta",
+    "name": "Simply tomato spaghetti",
+    "kicker": "LESS REALLY IS MORE",
+    "description": "A silky tomato sauce from a humble spoonful of paste. Your new cupboard classic.",
+    "image": "tomato-pasta",
+    "time": 20,
+    "vegetarian": true,
+    "ingredients": [
+      [
+        "spaghetti",
+        200,
+        "g"
+      ],
+      [
+        "tomato paste",
+        3,
+        "tbsp"
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil",
+      "pepper"
+    ],
+    "steps": [
+      [
+        "Boil and save a little",
+        "Cook spaghetti in boiling salted water according to the packet. Save a mug of the starchy cooking water before draining."
+      ],
+      [
+        "Wake up the tomato",
+        "Heat a little oil in a pan over medium heat. Add the tomato paste and stir for 2 minutes until it darkens slightly. Stir in enough pasta water to make a smooth sauce."
+      ],
+      [
+        "Twirl and serve",
+        "Add the spaghetti and toss over gentle heat for a minute. Loosen with more pasta water if needed. Season with pepper and serve warm."
+      ]
+    ]
+  },
+  {
+    "id": "green-pasta",
+    "name": "Garlicky garden pasta",
+    "kicker": "A LITTLE GREEN GOODNESS",
+    "description": "Tender greens and golden garlic. A fresh twist on the easiest dinner in the book.",
+    "image": "green-pasta",
+    "time": 20,
+    "vegetarian": true,
+    "ingredients": [
+      [
+        "spaghetti",
+        200,
+        "g"
+      ],
+      [
+        "spinach",
+        120,
+        "g"
+      ],
+      [
+        "garlic",
+        2,
+        "cloves"
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      [
+        "Cook the spaghetti",
+        "Cook spaghetti in salted boiling water according to the packet. Reserve a mug of pasta water, then drain."
+      ],
+      [
+        "Let the greens shine",
+        "Thinly slice the garlic. Gently cook it in a little oil for 1 minute without browning. Add washed spinach and stir until just wilted."
+      ],
+      [
+        "Toss it all together",
+        "Add the spaghetti to the greens. Toss with a splash of pasta water until glossy. Taste for salt and serve."
+      ]
+    ]
+  },
+  {
+    "id": "tomato-eggs",
+    "name": "Sunny tomato skillet",
+    "kicker": "ONE PAN, ALL THE COMFORT",
+    "description": "Soft tomatoes and eggs, gently simmered into the coziest little skillet.",
+    "image": "salad",
+    "time": 20,
+    "vegetarian": true,
+    "ingredients": [
+      [
+        "eggs",
+        4,
+        ""
+      ],
+      [
+        "tomatoes",
+        3,
+        ""
+      ],
+      [
+        "onion",
+        0.5,
+        ""
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil",
+      "pepper"
+    ],
+    "steps": [
+      [
+        "Make the tomato base",
+        "Finely chop the onion and tomatoes. Soften the onion in a little oil over medium heat for 3 minutes. Add tomatoes and a splash of water; simmer for 7 minutes until saucy."
+      ],
+      [
+        "Add the eggs",
+        "Make small wells in the sauce and crack in the eggs. Cover the pan and cook gently until both whites and yolks are firm."
+      ],
+      [
+        "Finish at the table",
+        "Season with salt and pepper, then divide the eggs and sauce between bowls. Serve immediately."
+      ]
+    ]
+  },
+  {
+    "id": "egg-rice",
+    "name": "Better-at-home egg rice",
+    "kicker": "A CLEVER LITTLE LEFTOVER",
+    "description": "Fluffy egg, warm rice, and a handful of greens. A satisfying bowl from everyday staples.",
+    "image": "rice",
+    "time": 30,
+    "vegetarian": true,
+    "ingredients": [
+      [
+        "rice",
+        150,
+        "g"
+      ],
+      [
+        "eggs",
+        2,
+        ""
+      ],
+      [
+        "spinach",
+        80,
+        "g"
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      [
+        "Start with the rice",
+        "Cook the dry rice according to its packet instructions, then drain well. Spread it briefly on a plate while you prepare the eggs."
+      ],
+      [
+        "Scramble and stir",
+        "Heat a little oil in a wide pan. Beat the eggs, add to the pan, and stir until fully set. Add washed spinach and cook until wilted."
+      ],
+      [
+        "Bring on the rice",
+        "Add the freshly cooked rice and stir-fry for 2–3 minutes until hot throughout. Season with salt. Serve immediately."
+      ]
+    ]
+  },
+  {
+    "id": "garlic-rice",
+    "name": "Golden garlic rice",
+    "kicker": "SMALL INGREDIENT LIST. BIG COMFORT.",
+    "description": "Fragrant garlic and onion bring a pot of rice beautifully to life.",
+    "image": "rice",
+    "time": 25,
+    "vegetarian": true,
+    "ingredients": [
+      [
+        "rice",
+        150,
+        "g"
+      ],
+      [
+        "garlic",
+        2,
+        "cloves"
+      ],
+      [
+        "onion",
+        0.5,
+        ""
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      [
+        "Soften and sizzle",
+        "Dice the onion and mince the garlic. Heat a little oil in a saucepan, soften the onion for 4 minutes, then stir in the garlic for 30 seconds."
+      ],
+      [
+        "A little patience",
+        "Stir in rinsed rice. Add water in the ratio recommended on its packet and a pinch of salt. Cover and simmer for the packet cooking time."
+      ],
+      [
+        "Fluff and enjoy",
+        "Remove from heat and rest, covered, for 5 minutes. Fluff with a fork and serve."
+      ]
+    ]
+  },
+  {
+    "id": "spinach-eggs",
+    "name": "Everyday green scramble",
+    "kicker": "A FRESH START, ANY TIME",
+    "description": "Soft scrambled eggs folded around bright green spinach. Simple is a good thing.",
+    "image": "salad",
+    "time": 10,
+    "vegetarian": true,
+    "ingredients": [
+      [
+        "eggs",
+        4,
+        ""
+      ],
+      [
+        "spinach",
+        100,
+        "g"
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil",
+      "pepper"
+    ],
+    "steps": [
+      [
+        "Ready your greens",
+        "Wash the spinach and drain. Beat the eggs with a pinch of salt and pepper."
+      ],
+      [
+        "Wilt and fold",
+        "Heat a little oil over medium-low heat. Add the spinach and stir until wilted, then pour in the eggs."
+      ],
+      [
+        "Slow and gentle",
+        "Use a spatula to gently fold the eggs until fully set. Divide between plates and serve straight away."
+      ]
+    ]
+  },
+  {
+    "id": "meat-rice",
+    "name": "One-pan tomato mince & rice",
+    "kicker": "A LITTLE LESS WASHING UP",
+    "description": "A hearty pot of rice and tomato-rich mince. All the flavor, one happy pan.",
+    "image": "rice",
+    "time": 35,
+    "vegetarian": false,
+    "ingredients": [
+      [
+        "ground meat",
+        250,
+        "g"
+      ],
+      [
+        "rice",
+        150,
+        "g"
+      ],
+      [
+        "tomato paste",
+        2,
+        "tbsp"
+      ]
+    ],
+    "basics": [
+      "salt",
+      "oil",
+      "pepper"
+    ],
+    "steps": [
+      [
+        "Brown the mince",
+        "Heat a little oil in a wide pan with a lid. Add ground meat and cook thoroughly, breaking it apart; ground beef or pork should reach 71°C, and ground poultry 74°C. Stir in tomato paste and cook for 1 minute."
+      ],
+      [
+        "Let it simmer",
+        "Stir in rinsed rice and the amount of water its packet recommends. Add salt, cover, and simmer for the packet cooking time, adding water if needed."
+      ],
+      [
+        "Rest and serve",
+        "Check that the rice is tender. Turn off the heat and leave covered for 5 minutes, then fluff and season with pepper."
+      ]
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "pantry-prototype",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Private interactive pantry recipe prototype",
+  "scripts": {
+    "start": "python3 -m http.server 3000 --directory public",
+    "build": "node build.cjs",
+    "test": "node smoke-test.cjs && node billing-ui-test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
